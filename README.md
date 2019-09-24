@@ -14,3 +14,6 @@
 >3.无代码侵入，独立部署
 >
 >ps:如果你使用Docker部署，即可实现真正的一键部署(基础镜像的构建与应用的打包通过多阶段构建写在一个Dockerfile中)
+
+       --app-config.port=8088  --app-config.proxy[0].host=10.120.133.39   --app-config.proxy[0].port=8080
+
